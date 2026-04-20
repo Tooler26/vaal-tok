@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vaal Talk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h1>🔥 Vaal Talk</h1>
+    <ul>
+      <li onclick="showTab('home')">Home</li>
+      <li onclick="showTab('marketplace')">Marketplace</li>
+      <li onclick="showTab('kasiMall')">Kasi Mall</li>
+    </ul>
+  </nav>
+
+  <!-- HOME (VIDEO FEED) -->
+  <section id="home" class="tab active">
+    <h2>Video Feed</h2>
+
+    <div class="video">
+      <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+      <p>🔥 Welcome to Vaal Talk</p>
+    </div>
+
+    <div class="video">
+      <video controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+      </video>
+      <p>😂 Funny clip</p>
+    </div>
+  </section>
+
+  <!-- MARKETPLACE -->
+  <section id="marketplace" class="tab">
+    <h2>Marketplace</h2>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/150">
+      <p>Sneakers - R500</p>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/150">
+      <p>Hoodie - R300</p>
+    </div>
+  </section>
+
+  <!-- KASI MALL -->
+  <section id="kasiMall" class="tab">
+    <h2>Kasi Mall</h2>
+
+    <div class="store">
+      <h3>Kasi Fashion</h3>
+      <p>Owner: John</p>
+    </div>
+
+    <div class="store">
+      <h3>Vaal Sneakers</h3>
+      <p>Owner: Sarah</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
